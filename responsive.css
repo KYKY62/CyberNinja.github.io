@@ -1,0 +1,46 @@
+/*untuk tablet*/
+@media all and (max-width: 1000px) {
+	*{
+		max-width: 1000px;
+	}
+  .about .container img{
+    width: 700px;
+  }
+  h1.desc{
+    font-size: 70px;
+    font-weight: bold;
+  }
+  .gallery img{
+    height: 400px;
+    margin: 0 300px;
+    border: 30px solid rgb(198,57,74);
+  }
+  h1.album{
+    margin: -35px 300px;
+  }
+}
+
+/*untuk smartphone*/
+@media all and (max-width: 670px) {
+  *{
+    max-width: 670px;
+  }
+  .about .container img{
+    width: 500px;
+  }
+  .menu{
+    margin: 0 20px;
+  }
+  h1.desc{
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .gallery img{
+    height: 400px;
+    margin: 0 150px;
+    border: 30px solid rgb(198,57,74);
+  }
+  h1.album{
+    margin: -55px 245px;
+  }
+}

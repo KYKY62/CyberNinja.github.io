@@ -1,0 +1,168 @@
+*{
+	text-decoration: none;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	max-width: 1170px;
+	/*width: 100%;*/
+	padding: 20px 15px;
+	margin: 0 auto;
+}
+
+header{
+	background-color: #0e121b;
+	position: fixed;
+	z-index: 1;
+	opacity: 0.7;
+	width: 100%;
+}
+
+.logo{
+	font-style: fantasy;
+	font-weight: bold;
+	font-style: 20px;
+	margin-right: 20px;
+}
+
+.menu{
+	margin: 0 30px;
+}
+
+.menu:hover{
+	color: #ec2a21;
+	border-bottom: 2px solid #ec2a21;
+}
+
+a.play{
+	background-color: #ec2a21;
+	padding: 10px;
+	border-radius: 3px;
+	float:right;
+	margin: -10px 0 ;
+}
+
+.main{
+	margin: 50px 0;
+}
+
+h1.main{
+	font-weight: bold;
+	font-size: 70px;
+	font-style: fantasy;
+}
+
+p.main {
+	width: 25%;
+	border-left: 2px solid #ec2a21;
+	padding-left: 25px;
+	font-style: fantasy;
+}
+
+
+.top-wrapper{
+	background: url(https://images.hdqwalls.com/wallpapers/cyber-ninja-variant-retro-k3.jpg);
+	background-size: cover;
+	padding: 23% 0;	
+}
+
+a.shop{
+	background-color: #ec2a21;
+	padding: 10px;
+	border-radius: 3px;
+}
+
+.fa-shopping-cart{
+	background-color: #ecebe1;
+	padding: 10px;
+	border-radius: 3px;
+	color: #000000;
+}
+
+.about{
+	background-color: #ff4655;
+	padding: 0;
+	margin: 0;
+	height: 800px;
+}
+
+.about .container img{
+	margin: 120px -70px;
+	float: left;
+	height: 500px;
+}
+
+.about .container h1,
+.about .container p{
+	float: right;
+}
+
+h1.desc{
+	margin: 120px 0 20px 0;
+	font-weight: bold;
+	font-size: 120px;
+	border-top: 3px solid #ecebe1;
+}
+
+p.konten1{
+	font-size: 20px;
+}
+
+p.konten2{
+	padding: 30px 10%;
+}
+
+a.agen{
+	background-color: #ecebe1;
+	border-radius: 3px;
+	padding: 10px;
+	color: #000000;
+}
+
+.gallery{
+	background-color: #ff4655;
+	padding: 0;
+	margin: 0;
+	height: 800px;
+	margin: 0 auto;
+}
+
+.gallery img{
+	height: 500px;
+	margin: 0 400px;
+	border: 30px solid rgb(198,57,74);
+}
+
+h1.album{
+	margin: -85px 525px;
+}
+
+.album a{
+	color: #9595b2;
+	font-size: 50px;
+	font-weight: bold;
+	padding: 0 30px;
+}
+
+.album a:hover{
+	color: rgb(251,151,73);
+}
+
+footer{
+	margin: 0 auto;
+	background-color: #0e121b;}
+
+.term{
+	text-align: center;
+	padding: 10px;
+}
+
+.aws{
+	padding: 7px;
+}
+
+.aws span{
+	padding: 0 5px;
+}
