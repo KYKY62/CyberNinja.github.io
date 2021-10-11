@@ -23,7 +23,7 @@
 /*untuk smartphone*/
 @media all and (max-width: 670px) {
   *{
-    max-width: 670px;
+    max-width: 100%;
   }
   .about .container img{
     width: 500px;
@@ -42,5 +42,30 @@
   }
   h1.album{
     margin: -55px 245px;
+  }
+}
+
+/*Untuk Handhphone*/
+@media all and (max-width: 550px) {
+  *{
+    max-width: 100%;
+  }
+  .about .container img{
+    width: 400px;
+  }
+  .menu{
+    margin: 0 10px;
+  }
+  h1.desc{
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .gallery img{
+    height: 380px;
+    margin: 0 100px;
+    border: 30px solid rgb(198,57,74);
+  }
+  h1.album{
+    margin: -55px 185px;
   }
 }
