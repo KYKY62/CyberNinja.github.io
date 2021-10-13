@@ -62,7 +62,7 @@
     height: 400px;
   }
   .menu{
-    margin: 0 15px;
+    margin: 0 13px;
   }
   a.play{
     float: right;
@@ -111,7 +111,7 @@
     height: 600px;
   }
   .menu{
-    margin: 0 25px;
+    margin: 0 15px;
   }
   a.play{
     float: right;
@@ -132,11 +132,11 @@
   }
   .gallery img{
     height: 400px;
-    margin: 0 210px;
+    margin: 0 100px;
     border: 20px solid rgb(198,57,74);
   }
   h1.album{
-    margin: -35px 295px;
+    margin: -35px 185px;
   }
   .album a:hover{
     color: rgb(251,151,73);
