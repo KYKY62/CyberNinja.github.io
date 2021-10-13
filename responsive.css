@@ -1,5 +1,5 @@
 /*iphone 6/7/8 plus*/
-@media screen and (min-width: 417px){
+@media screen and (min-width: 259px){
   *{
     max-width: 100%;
   }
@@ -12,14 +12,20 @@
     width: 70%;
   }
   .about .container img{
-    height: 350px;
+    height: 250px;
+  }
+  .about .intro{
+    padding: 0 10px;
+    margin-left: 40px;
   }
   .menu{
-    margin: 0 7px;
+    margin:5px 0;
+    display: inline-block;
+    width: 100%;
   }
   a.play{
     float: none;
-    padding: 7px;
+    padding: 3px;
     border-radius: 3px;
     display: inline-block;
     margin-top: 10px;
@@ -38,15 +44,19 @@
   p.konten1,
   p.konten2,
   a.agen{
-    font-size: 13px;
+    font-size: 10px;
   }
   .gallery img{
-    height: 300px;
-    margin: 0 80px;
+    height: 150px;
+    margin: 0 40px;
     border: 20px solid rgb(198,57,74);
   }
   h1.album{
-    margin: -35px 125px;
+    margin: -40px 75px;
+  }
+  .album a{
+    font-size: 30px;
+    margin: 0 -30px;
   }
   .album a:hover{
     color: rgb(251,151,73);
