@@ -1,49 +1,57 @@
-/*untuk tablet*/
-@media all and (max-width: 1000px) {
-	*{
-		max-width: 1000px;
-	}
+/*iphone 6/7/8 plus*/
+*{
+    max-width: 100%;
+  }
+  h1 .main{
+    font-weight: bold;
+    font-size: 34px;
+    font-style: fantasy;
+  }
+  p.main {
+    width: 70%;
+  }
   .about .container img{
-    width: 700px;
+    height: 350px;
+  }
+  .menu{
+    margin: 0 7px;
+  }
+  a.play{
+    float: none;
+    padding: 7px;
+    border-radius: 3px;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  .menu:hover{
+    color: #ec2a21;
+    border-bottom: 2px solid #ec2a21;
+  }
+  h1.main{
+    font-size: 50px;
   }
   h1.desc{
-    font-size: 70px;
+    font-size: 20px;
     font-weight: bold;
   }
+  p.konten1,
+  p.konten2,
+  a.agen{
+    font-size: 13px;
+  }
   .gallery img{
-    height: 400px;
-    margin: 0 300px;
-    border: 30px solid rgb(198,57,74);
+    height: 300px;
+    margin: 0 80px;
+    border: 20px solid rgb(198,57,74);
   }
   h1.album{
-    margin: -35px 300px;
+    margin: -35px 125px;
+  }
+  .album a:hover{
+    color: rgb(251,151,73);
   }
 }
 
-/*untuk smartphone*/
-@media all and (max-width: 670px) {
-  *{
-    max-width: 100%;
-  }
-  .about .container img{
-    width: 500px;
-  }
-  .menu{
-    margin: 0 20px;
-  }
-  h1.desc{
-    font-size: 40px;
-    font-weight: bold;
-  }
-  .gallery img{
-    height: 400px;
-    margin: 0 150px;
-    border: 30px solid rgb(198,57,74);
-  }
-  h1.album{
-    margin: -55px 245px;
-  }
-}
 
 /*Small Screne Phone*/
 @media screen and (min-width: 557px) {
