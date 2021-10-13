@@ -46,7 +46,7 @@
 }
 
 /*Small Screne Phone*/
-@media all and (max-width: 557px) {
+@media screen and (min-width: 557px) {
   *{
     max-width: 100%;
   }
@@ -95,7 +95,7 @@
 }
 
 /*medium screen - tablet*/
-@media all and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   *{
     max-width: 100%;
   }
@@ -132,14 +132,62 @@
   }
   .gallery img{
     height: 400px;
-    margin: 0 100px;
+    margin: 0 210px;
     border: 20px solid rgb(198,57,74);
   }
   h1.album{
-    margin: -35px 185px;
+    margin: -35px 290px;
   }
   .album a:hover{
     color: rgb(251,151,73);
   }
 }
 
+/*large screen -laptop*/
+@media screen and (min-width: 1024px) {
+  *{
+    max-width: 100%;
+  }
+  h1 .main{
+    font-weight: bold;
+    font-size: 34px;
+    font-style: fantasy;
+  }
+  p.main {
+    width: 40%;
+  }
+  .about .container img{
+    height: 500px;
+  }
+  .menu{
+    margin: 0 30px;
+  }
+  a.play{
+    float: right;
+    padding: 10px;
+    border-radius: 3px;
+    margin: -10px 0px ;
+  }
+  .menu:hover{
+    color: #ec2a21;
+    border-bottom: 2px solid #ec2a21;
+  }
+  h1.desc{
+    font-size: 120px;
+    font-weight: bold;
+  }
+  .intro p, a{
+    font-size: 20px;
+  }
+  .gallery img{
+    height: 500px;
+    margin: 0 400px;
+    border: 30px solid rgb(198,57,74);
+  }
+  h1.album{
+    margin: -85px 525px;
+  }
+  .album a:hover{
+    color: rgb(251,151,73);
+  }
+}
