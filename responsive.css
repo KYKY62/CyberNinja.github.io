@@ -1,124 +1,130 @@
 /*iphone 6/7/8 plus*/
-@media screen and (min-width: 259px){
-  *{
+@media screen and (max-width: 259px) {
+  * {
     max-width: 100%;
   }
-  h1 .main{
+  h1 .main {
     font-weight: bold;
     font-size: 34px;
     font-style: fantasy;
   }
+  .top-header {
+    display: block;
+  }
   p.main {
     width: 70%;
   }
-  .about .container img{
+  .about .container img {
     height: 250px;
   }
-  .about .intro{
+  .about .intro {
     padding: 0 10px;
     margin-left: 40px;
   }
-  .menu{
-    margin:5px 0;
+  .menu {
+    margin: 5px 0;
     display: inline-block;
     width: 100%;
   }
-  a.play{
+  a.play {
     float: none;
     padding: 3px;
     border-radius: 3px;
     display: inline-block;
     margin-top: 10px;
   }
-  .menu:hover{
+  .menu:hover {
     color: #ec2a21;
     border-bottom: 2px solid #ec2a21;
   }
-  h1.main{
+  h1.main {
     font-size: 50px;
   }
-  h1.desc{
+  h1.desc {
     font-size: 20px;
     font-weight: bold;
   }
   p.konten1,
   p.konten2,
-  a.agen{
+  a.agen {
     font-size: 10px;
   }
-  .gallery img{
+  .gallery img {
     height: 150px;
     margin: 0 40px;
-    border: 20px solid rgb(198,57,74);
+    border: 20px solid rgb(198, 57, 74);
   }
-  h1.album{
+  h1.album {
     margin: -40px 75px;
   }
-  .album a{
+  .album a {
     font-size: 30px;
     margin: 0 -30px;
   }
-  .album a:hover{
-    color: rgb(251,151,73);
+  .album a:hover {
+    color: rgb(251, 151, 73);
   }
 }
 
-
 /*Small Screne Phone*/
-@media screen and (min-width: 557px) {
-  *{
+@media screen and (max-width: 557px) {
+  * {
     max-width: 100%;
   }
-  h1 .main{
+  h1 .main {
     font-weight: bold;
     font-size: 34px;
     font-style: fantasy;
   }
+  .top-header {
+    display: block;
+  }
   p.main {
     width: 50%;
   }
-  .about .container img{
+  .about .container img {
     height: 400px;
   }
-  .menu{
+  .menu {
     margin: 0 13px;
   }
-  a.play{
+  a.play {
     float: right;
     padding: 7px;
     border-radius: 3px;
-    margin: -5px -5px ;
+    margin: -5px -5px;
   }
-  .menu:hover{
+  .menu:hover {
     color: #ec2a21;
     border-bottom: 2px solid #ec2a21;
   }
-  h1.desc{
+  h1.desc {
     font-size: 20px;
     font-weight: bold;
   }
-  .intro p, a{
+  .intro p,
+  a {
     font-size: 15px;
   }
-  .gallery img{
+  .gallery img {
     height: 300px;
     margin: 0 130px;
-    border: 20px solid rgb(198,57,74);
+    border: 20px solid rgb(198, 57, 74);
   }
-  h1.album{
+  h1.album {
     margin: -35px 85px;
   }
-  .album a:hover{
-    color: rgb(251,151,73);
+  .album a:hover {
+    color: rgb(251, 151, 73);
   }
 }
 
 /*medium screen - tablet*/
 @media screen and (min-width: 768px) {
-  *{
+  * {
     max-width: 100%;
   }
-  h1 .main{
+  h1 .main {
     font-weight: bold;
     font-size: 34px;
     font-style: fantasy;
@@ -126,48 +132,49 @@
   p.main {
     width: 40%;
   }
-  .about .container img{
+  .about .container img {
     height: 600px;
   }
-  .menu{
+  .menu {
     margin: 0 15px;
   }
-  a.play{
+  a.play {
     float: right;
     padding: 7px;
     border-radius: 3px;
-    margin: -5px -5px ;
+    margin: -5px -5px;
   }
-  .menu:hover{
+  .menu:hover {
     color: #ec2a21;
     border-bottom: 2px solid #ec2a21;
   }
-  h1.desc{
+  h1.desc {
     font-size: 30px;
     font-weight: bold;
   }
-  .intro p, a{
+  .intro p,
+  a {
     font-size: 15px;
   }
-  .gallery img{
+  .gallery img {
     height: 400px;
     margin: 0 210px;
-    border: 20px solid rgb(198,57,74);
+    border: 20px solid rgb(198, 57, 74);
   }
-  h1.album{
+  h1.album {
     margin: -35px 290px;
   }
-  .album a:hover{
-    color: rgb(251,151,73);
+  .album a:hover {
+    color: rgb(251, 151, 73);
   }
 }
 
 /*large screen -laptop*/
 @media screen and (min-width: 1024px) {
-  *{
+  * {
     max-width: 100%;
   }
-  h1 .main{
+  h1 .main {
     font-weight: bold;
     font-size: 34px;
     font-style: fantasy;
@@ -175,38 +182,39 @@
   p.main {
     width: 40%;
   }
-  .about .container img{
+  .about .container img {
     height: 500px;
   }
-  .menu{
+  .menu {
     margin: 0 30px;
   }
-  a.play{
+  a.play {
     float: right;
     padding: 10px;
     border-radius: 3px;
-    margin: -10px 0px ;
+    margin: -10px 0px;
   }
-  .menu:hover{
+  .menu:hover {
     color: #ec2a21;
     border-bottom: 2px solid #ec2a21;
   }
-  h1.desc{
+  h1.desc {
     font-size: 120px;
     font-weight: bold;
   }
-  .intro p, a{
+  .intro p,
+  a {
     font-size: 20px;
   }
-  .gallery img{
+  .gallery img {
     height: 500px;
     margin: 0 400px;
-    border: 30px solid rgb(198,57,74);
+    border: 30px solid rgb(198, 57, 74);
   }
-  h1.album{
+  h1.album {
     margin: -85px 525px;
   }
-  .album a:hover{
-    color: rgb(251,151,73);
+  .album a:hover {
+    color: rgb(251, 151, 73);
   }
 }
